@@ -1,6 +1,9 @@
 class Unit:
     def __init__(self, name):
         self.name = name
+        self.combat
+        self.sustain_damage = False
+        self.bombardment = False
         self.abilities = []
     
     def add_ability(self, ability):
@@ -63,12 +66,12 @@ class Cruiser(Ship):
         super().__init__("Cruiser")
 
 class Destroyer(Ship):
-    def __init__(self):
-        super().__init__("Destroyer")
+    def __init__(self, combat):
+        super().__init__("Destroyer", combat)
 
 class Dreadnought(Ship):
-    def __init__(self):
-        super().__init__("Dreadnought")
+    def __init__(self, combat):
+        super().__init__("Dreadnought", combat)
 
 class Fighter(Ship):
     def __init__(self):

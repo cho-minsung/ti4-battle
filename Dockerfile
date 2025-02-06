@@ -1,13 +1,12 @@
-FROM python:3.13-slim
+FROM rust:1.84.1
 
 WORKDIR /app
 
-COPY . /app
+COPY Cargo.toml Cargo.lock ./
+COPY src ./src
 
-RUN pip install --no-cache-dir -r requirements.txt
+RUN cargo build --release
 
-EXPOSE 8080
+ENV RUST_LOG=info
 
-ENV NAME TI4-Battle-Simulator
-
-CMD ["python", "main.py"]
+CMD ["./target/release/battle-simulator"]

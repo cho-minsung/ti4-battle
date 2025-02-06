@@ -18,3 +18,4 @@ class TheFederationOfSol(Faction):
         self.infantry = units.Infantry("Spec Ops")
         self.space_dock = units.SpaceDock()
         self.mech = units.mechs()
+        
