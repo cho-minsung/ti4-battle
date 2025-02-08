@@ -1,0 +1,292 @@
+[faction.TheArborec]
+name = "The Arborec"
+flagship_combat = 7
+flagship_combat_count = 2
+flagship_capacity = 5
+infantry1_combat = 8
+infantry2_combat = 7
+mech_combat = 6
+mech_sustain = true
+mech_planetary_shield = true
+
+[faction.TheBaronyOfLetnev]
+name = "The Barony of Letnev"
+flagship_combat = 5
+flagship_combat_count = 2
+flagship_capacity = 3
+mech_combat = 6
+mech_sustain = true
+
+[faction.TheClanOfSaar]
+name = "The Clan of Saar"
+flagship_combat = 5
+flagship_combat_count = 2
+flagship_capacity = 3
+space_dock1_capacity = 4
+space_dock2_capacity = 5
+mech_combat = 6
+mech_sustain = true
+
+[faction.TheEmbersOfMuaat]
+name = "The Embers of Muaat"
+flagship_combat = 5
+flagship_combat_count = 2
+flagship_capacity = 3
+war_sun_combat = 3
+war_sun_combat_count = 3
+war_sun_sustain_damage = true
+war_sun_bombardment = 3
+war_sun_bombardment_count = 3
+mech_combat = 6
+mech_sustain = true
+
+[faction.TheEmiratesOfHacan]
+name = "The Emirates of Hacan"
+flagship_combat = 7
+flagship_combat_count = 2
+flagship_capacity = 3
+mech_combat = 6
+mech_sustain = true
+
+[faction.TheFederationOfSol]
+name = "The Federation of Sol"
+infantry1_combat = 7
+infantry2_combat = 6
+carrier1_combat = 9
+carrier1_capacity = 6
+carrier2_combat = 9
+carrier2_capacity = 8
+flagship_combat = 5
+flagship_combat_count = 2
+flagship_capacity = 12
+mech_combat = 6
+mech_sustain = true
+
+[faction.TheGhostsOfCreuss]
+name = "The Ghosts of Creuss"
+flagship_combat = 5
+flagship_combat_count = 1
+flagship_capacity = 3
+mech_combat = 6
+mech_sustain = true
+
+[faction.TheL1Z1XMindnet]
+name = "The L1Z1X Mindnet"
+flagship_combat = 5
+flagship_combat_count = 2
+flagship_capacity = 5
+dreadnought1_combat = 5
+dreadnought1_capacity = 2
+dreadnought2_combat = 4
+dreadnought2_capacity = 2
+mech_combat = 6
+mech_sustain = true
+mech_bombardment = 8
+
+[faction.TheMentakCoalition]
+name = "The Mentak Coalition"
+flagship_combat = 7
+flagship_combat_count = 2
+flagship_capacity = 3
+mech_combat = 6
+mech_sustain = true
+
+[faction.TheNaaluCollective]
+name = "The Naalu Collective"
+flagship_combat = 9
+flagship_combat_count = 2
+flagship_capacity = 6
+fighter1_combat = 8
+fighter2_combat = 7
+mech_combat = 6
+mech_sustain = true
+
+[faction.TheNekroVirus]
+name = "The Nekro Virus"
+flagship_combat = 9
+flagship_combat_count = 2
+flagship_capacity = 3
+mech_combat = 6
+mech_sustain = true
+
+[faction.SardakkNorr]
+name = "Sardakk N'orr"
+flagship_combat = 6
+flagship_combat_count = 2
+flagship_capacity = 3
+dreadnought1_combat = 5
+dreadnought1_capacity = 1
+dreadnought1_sustain_damage = true
+dreadnought1_bombardment = 4
+dreadnought1_bombardment_count = 2
+dreadnought2_combat = 4
+dreadnought2_capacity = 1
+dreadnought2_sustain_damage = true
+dreadnought2_bombardment = 4
+dreadnought2_bombardment_count = 2
+mech_combat = 6
+mech_sustain = true
+
+[faction.TheUniversitiesOfJolNar]
+name = "The Universities of Jol-Nar"
+flagship_combat = 6
+flagship_combat_count = 2
+flagship_capacity = 3
+mech_combat = 6
+mech_sustain = true
+
+[faction.TheWinnu]
+name = "The Winnu"
+flagship_combat = 7
+flagship_combat_count = 1
+flagship_capacity = 3
+mech_combat = 6
+mech_sustain = true
+
+[faction.TheXxchaKingdom]
+name = "The Xxcha Kingdom"
+flagship_combat = 7
+flagship_combat_count = 2
+flagship_capacity = 3
+mech_combat = 6
+mech_sustain = true
+mech_space_cannon = 8
+
+[faction.TheYinBrotherhood]
+name = "The Yin Brotherhood"
+flagship_combat = 9
+flagship_combat_count = 2
+flagship_capacity = 3
+mech_combat = 6
+mech_sustain = true
+
+[faction.TheYssarilTribes]
+name = "The Yssaril Tribes"
+flagship_combat = 5
+flagship_combat_count = 2
+flagship_capacity = 3
+mech_combat = 6
+mech_sustain = true
+
+[faction.TheArgentFlight]
+name = "The Argent Flight"
+[faction.TheArgentFlight.flagship1]
+combat = 7
+combat_count = 2
+capacity = 3
+sustain_damage = true
+[faction.TheArgentFlight.destroyer1]
+combat = 8
+capacity = 1
+anti_fighter_barrage = 9
+anti_fighter_barrage_count = 2
+[faction.TheArgentFlight.destroyer2]
+combat = 7
+capacity = 1
+anti_fighter_barrage = 6
+anti_fighter_barrage_count = 3
+[faction.TheArgentFlight.mech1]
+combat = 6
+sustain_damage = true
+
+[faction.TheEmpyrean]
+name = "The Empyrean"
+[faction.TheEmpyrean.flagship1]
+combat = 5
+combat_count = 2
+capacity = 3
+sustain_damage = true
+[faction.TheEmpyrean.mech1]
+combat = 6
+sustain_damage = true
+
+[faction.TheMahactGeneSorcerers]
+name = "The Mahact Gene-Sorcerers"
+[faction.TheMahactGeneSorcerers.flagship1]
+combat = 5
+combat_count = 2
+capacity = 3
+sustain_damage = true
+[faction.TheMahactGeneSorcerers.infantry1]
+combat = 8
+[faction.TheMahactGeneSorcerers.infantry2]
+combat = 7
+[faction.TheMahactGeneSorcerers.mech1]
+combat = 6
+sustain_damage = true
+
+[faction.TheNaazRokhaAlliance]
+name = "The Naaz-Rokha Alliance"
+[faction.TheNaazRokhaAlliance.flagship1]
+combat = 9
+combat_count = 2
+capacity = 4
+sustain_damage = true
+[faction.TheNaazRokhaAlliance.mech1]
+combat = 6
+combat_count = 2
+sustain_damage = true
+[faction.TheNaazRokhaAlliance.mech2]
+combat = 8
+combat_count = 2
+sustain_damage = false
+
+[faction.TheNomad]
+name = "The Nomad"
+[faction.TheNomad.flagship1]
+combat = 7
+combat_count = 2
+capacity = 3
+anti_fighter_barrage = 8
+anti_fighter_barrage_count = 3
+sustain_damage = true
+[faction.TheNomad.flagship2]
+combat = 5
+combat_count = 2
+capacity = 6
+anti_fighter_barrage = 5
+anti_fighter_barrage_count = 3
+sustain_damage = true
+[faction.TheNomad.mech1]
+combat = 6
+sustain_damage = true
+
+[faction.TheTitansOfUl]
+name = "The Titans of Ul"
+[faction.TheTitansOfUl.flagship1]
+combat = 7
+combat_count = 2
+capacity = 3
+sustain_damage = true
+[faction.TheTitansOfUl.cruiser1]
+combat = 7
+capacity = 1
+[faction.TheTitansOfUl.cruiser2]
+combat = 6
+capacity = 2
+sustain_damage = true
+[faction.TheTitansOfUl.pds1]
+combat = 7
+planetary_shield = true
+space_cannon = 6
+sustain_damage = true
+[faction.TheTitansOfUl.pds2]
+combat = 6
+planetary_shield = true
+space_cannon = 5
+sustain_damage = true
+[faction.TheTitansOfUl.mech1]
+combat = 6
+sustain_damage = true
+
+[faction.TheVuilRaithCabal]
+name = "The Vuil'Raith Cabal"
+[faction.TheVuilRaithCabal.flagship1]
+combat = 5
+combat_count = 2
+capacity = 3
+sustain_damage = true
+bombardment = 5
+[faction.TheVuilRaithCabal.mech1]
+combat = 6
+sustain_damage = true
